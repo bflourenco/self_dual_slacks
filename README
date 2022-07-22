@@ -1,0 +1,9 @@
+Contents:
+
+1) Supports of slack matrices for strongly involutive self dual (sisd) cones:
+supports_rank4.txt -> Contains the supports for matrices for all sisd 4-dim cones with 7 up to 15 extreme rays
+supports_rank5.txt -> Contains the supports for matrices for all sisd 5-dim cones with 6 up to 9 extreme rays
+
+2) Numerical psd slack matrices for self-dual polyhedral cones:
+psd_slacks_rank4.txt-> Contains a psd slack matrix for all combinatorial types of self-dual 4-dim cone with 7 up to 15 extreme rays
+psd_slacks_rank5.txt-> Contains a psd slack matrix for all combinatorial types of self-dual 5-dim cone with 6 up to 9 extreme rays
