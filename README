@@ -1,3 +1,6 @@
+This repository contains the ancillary material to the paper "Self-dual polyhedral cones and their slack matrices" by João Gouveia and Bruno F. Lourenço 
+https://arxiv.org/abs/2207.11747
+
 Contents:
 
 1) Supports of slack matrices for strongly involutive self dual (sisd) cones:
@@ -7,3 +10,8 @@ supports_rank5.txt -> Contains the supports for matrices for all sisd 5-dim cone
 2) Numerical psd slack matrices for self-dual polyhedral cones:
 psd_slacks_rank4.txt-> Contains a psd slack matrix for all combinatorial types of self-dual 4-dim cone with 7 up to 15 extreme rays
 psd_slacks_rank5.txt-> Contains a psd slack matrix for all combinatorial types of self-dual 5-dim cone with 6 up to 9 extreme rays
+
+3) The main matlab functions that were used to create and manipulate these lists:
+findpsdslack -> A function that given a support of a slack matrix that is symmetric and has non-zero diagonal searches for a psd realization of the slack matrix
+issisd -> A function that given the support of a slack matrix verifies if the polytope is strongly independent self dual and if so, gives back a permuted matrix that is symmetric and has ones in the diagonal
+generatesisd -> A function that generates the slack matrices of all 3-dimensional sisd polytopes, based on the work of Bracho et al.
